@@ -1,0 +1,698 @@
+:root {
+    --black-1: #202020;
+    --black-2: #303030;
+    --white-1: #f5f5f5;
+    --white-2: #e9e9e9;
+    --main-1: #cf91ff;
+}
+
+.div,
+.div * {
+    box-sizing: border-box;
+}
+.div {
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+}
+.div2 {
+    background: var(--black-1, #202020);
+    border-radius: 0rem 0rem 1.5rem 0rem;
+    padding: 3.5rem 3.5rem 5.5rem 3.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.div3 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.frame {
+    flex-shrink: 0;
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    overflow: hidden;
+}
+.group {
+    height: auto;
+    position: absolute;
+    left: 0.9375rem;
+    top: 0.25rem;
+    overflow: visible;
+}
+.vector {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 0rem;
+    position: relative;
+    overflow: visible;
+}
+.div4 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.div5 {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.icon-home {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+}
+.icons-24-icon-grid-circle {
+    height: auto;
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    overflow: visible;
+}
+.vector2 {
+    border-radius: 0rem;
+    height: auto;
+    position: absolute;
+    right: 12.5%;
+    left: 12.5%;
+    width: 75%;
+    bottom: 12.5%;
+    top: 12.5%;
+    height: 75%;
+    overflow: visible;
+}
+.div6 {
+    color: var(--white-1, #f5f5f5);
+    text-align: left;
+    font-family: "Asap-Medium", sans-serif;
+    font-size: 1.125rem;
+    line-height: 130%;
+    font-weight: 500;
+    position: relative;
+}
+.icon-profile {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+}
+.profile {
+    height: auto;
+    position: absolute;
+    left: 0.25rem;
+    top: 0.125rem;
+    overflow: visible;
+}
+.div7 {
+    color: var(--main-1, #cf91ff);
+    text-align: left;
+    font-family: "Asap-SemiBold", sans-serif;
+    font-size: 1.125rem;
+    line-height: 130%;
+    font-weight: 600;
+    position: relative;
+}
+.frame2 {
+    background: var(--main-1, #cf91ff);
+    border-radius: 0rem 0.1875rem 0.1875rem 0rem;
+    flex-shrink: 0;
+    width: 0.375rem;
+    height: 2.5rem;
+    position: absolute;
+    left: -3.5rem;
+    top: calc(50% - 1.25rem);
+}
+.icon-2-user {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+}
+._2-user {
+    height: auto;
+    position: absolute;
+    right: 11.54%;
+    left: 11.46%;
+    width: 77%;
+    bottom: 13.3%;
+    top: 13.54%;
+    height: 73.15%;
+    overflow: visible;
+}
+.icon-barchart {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.group2 {
+    position: absolute;
+    inset: 0;
+}
+.rectangle {
+    border-radius: 0.0625rem;
+    border-style: solid;
+    border-color: var(--white-1, #f5f5f5);
+    border-width: 0.1125rem;
+    position: absolute;
+    right: 4.17%;
+    left: 70.83%;
+    width: 25%;
+    bottom: 6.25%;
+    top: 62.5%;
+    height: 31.25%;
+}
+.rectangle2 {
+    border-radius: 0.0625rem;
+    border-style: solid;
+    border-color: var(--white-1, #f5f5f5);
+    border-width: 0.1125rem;
+    position: absolute;
+    right: 70.83%;
+    left: 4.17%;
+    width: 25%;
+    bottom: 6.25%;
+    top: 37.5%;
+    height: 56.25%;
+}
+.rectangle3 {
+    border-radius: 0.0625rem;
+    border-style: solid;
+    border-color: var(--white-1, #f5f5f5);
+    border-width: 0.1125rem;
+    position: absolute;
+    right: 37.5%;
+    left: 37.5%;
+    width: 25%;
+    bottom: 6.25%;
+    top: 6.25%;
+    height: 87.5%;
+}
+.icon-3-user {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+}
+._3-user {
+    height: auto;
+    position: absolute;
+    right: 8.24%;
+    left: 7.29%;
+    width: 84.47%;
+    bottom: 18.58%;
+    top: 17.71%;
+    height: 63.71%;
+    overflow: visible;
+}
+.icon-trophy {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: visible;
+}
+.frame3 {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.group3 {
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: -100%;
+    top: 100%;
+    height: 100%;
+    transform: translate(0rem, -1.5rem);
+    overflow: visible;
+}
+.icon-category {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+}
+.category {
+    height: auto;
+    position: absolute;
+    right: 6.46%;
+    left: 12.5%;
+    width: 81.04%;
+    bottom: 12.5%;
+    top: 6.46%;
+    height: 81.04%;
+    overflow: visible;
+}
+.vector3 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 0rem;
+    position: relative;
+    overflow: visible;
+}
+.div8 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.ion-logo-vk {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: visible;
+}
+.icon-telegram {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: visible;
+}
+.mdi-youtube {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: visible;
+}
+.ic-baseline-discord {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: visible;
+}
+.vector4 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 0rem;
+    position: relative;
+    overflow: visible;
+}
+.div9 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.customer-service-2-line {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.group4 {
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+}
+.hand-heart-line {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.group5 {
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+}
+.icon-info-circle {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: visible;
+}
+.div10 {
+    flex-shrink: 0;
+    width: 103rem;
+    height: 70.75rem;
+    position: relative;
+}
+.header {
+    background: rgba(32, 32, 32, 0.9);
+    border-style: solid;
+    border-color: #505050;
+    border-width: 0rem 0rem 0.0625rem 0rem;
+    padding: 1rem 3.5rem 1rem 3.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    align-items: center;
+    justify-content: flex-start;
+    width: 103rem;
+    position: sticky;
+    left: calc(50% - 51.5rem);
+    top: 0rem;
+    box-shadow: 0rem 0.1875rem 0.5rem 0.125rem rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.div11 {
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-color: #606060;
+    border-width: 0.0625rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+.div12 {
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 35rem;
+    position: relative;
+    overflow: hidden;
+}
+.div13 {
+    color: var(--white-2, #e9e9e9);
+    text-align: left;
+    font-family: "Asap-Medium", sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    position: relative;
+}
+.vector5 {
+    align-self: stretch;
+    flex-shrink: 0;
+    width: 0rem;
+    height: auto;
+    position: relative;
+    overflow: visible;
+}
+.vector6 {
+    align-self: stretch;
+    flex-shrink: 0;
+    width: 0rem;
+    height: auto;
+    position: relative;
+    overflow: visible;
+}
+.div14 {
+    background: var(--black-2, #303030);
+    padding: 0.625rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.625rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.icon-search-glass {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: visible;
+}
+.div15 {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    right: 3.5rem;
+    top: calc(50% - 1.375rem);
+}
+.div16 {
+    display: flex;
+    flex-direction: row;
+    gap: 0.625rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.polygon {
+    flex-shrink: 0;
+    width: 2.75rem;
+    height: 2.75rem;
+    position: relative;
+    overflow: visible;
+    object-fit: cover;
+}
+.impossibility {
+    color: var(--white-1, #f5f5f5);
+    text-align: left;
+    font-family: "Asap-SemiBold", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    position: relative;
+}
+.icon-log-out {
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    overflow: visible;
+}
+.div17 {
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-color: #606060;
+    border-width: 0.0625rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 6.25rem;
+    height: 2.5rem;
+    position: absolute;
+    left: 77.6875rem;
+    top: calc(50% - 1.25rem);
+    overflow: hidden;
+}
+.div18 {
+    background: #505050;
+    border-radius: 0.375rem 0rem 0rem 0.375rem;
+    padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.icon-sun {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: visible;
+}
+.div19 {
+    border-radius: 0rem 0.375rem 0.375rem 0rem;
+    padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.icon-moon {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: visible;
+}
+.div20 {
+    background: var(--black-1, #202020);
+    flex-shrink: 0;
+    width: 120rem;
+    height: 10rem;
+    position: relative;
+    overflow: hidden;
+}
+.div21 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    right: 9.75rem;
+    top: 2rem;
+}
+.ion-logo-vk2 {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: visible;
+}
+.icon-telegram2 {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: visible;
+}
+.mdi-youtube2 {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: visible;
+}
+.ic-baseline-discord2 {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: visible;
+}
+.opyright {
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 9.75rem;
+    top: 6.5rem;
+}
+.icon-opyrigh {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.group6 {
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+}
+.opyright-2023 {
+    color: #cccccc;
+    text-align: left;
+    font-family: "Asap-Medium", sans-serif;
+    font-size: 1.125rem;
+    line-height: 130%;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.sit-blitz-com {
+    color: #cccccc;
+    text-align: left;
+    font-family: "Asap-Medium", sans-serif;
+    font-size: 1.125rem;
+    line-height: 130%;
+    font-weight: 500;
+    position: absolute;
+    right: 78.18%;
+    left: 16.72%;
+    width: 5.1%;
+    bottom: 20.62%;
+    top: 65%;
+    height: 14.37%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.div22 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 9.75rem;
+    top: 2rem;
+}
+.div23 {
+    color: var(--white-1, #f5f5f5);
+    text-align: left;
+    font-family: "Asap-Medium", sans-serif;
+    font-size: 1.125rem;
+    line-height: 130%;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
